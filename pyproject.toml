@@ -10,3 +10,6 @@ dynamic = ["version", "description"]
 
 [project.urls]
 Home = "https://github.com/gab50000/hashtree"
+
+[project.scripts]
+hashtree = "hashtree:cli"
